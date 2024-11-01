@@ -1,0 +1,21 @@
+name: nanogpt
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python>=3.11
+  - ipython
+  - ipykernel
+  - pre-commit
+
+  - numpy
+  - pandas>=2.0
+  - matplotlib
+
+  - conda-forge::jax
+  
+  - pip
+  - pip:
+    - -e .

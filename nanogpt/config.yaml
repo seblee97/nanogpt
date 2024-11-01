@@ -1,0 +1,16 @@
+seed: 0
+
+data_path: input.txt
+train_fraction: 0.9
+learning_rate: 0.001
+batch_size: 32
+context_size: 12
+embedding_dim: 32
+
+model: transformer
+
+bigram:
+    hidden_dims: [64]
+
+transformer:
+    num_heads: 1
